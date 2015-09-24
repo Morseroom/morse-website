@@ -24,7 +24,11 @@ logo h1{
 .summary small{
   color: #617381;
 }
+.summary-container{
+  margin-left: 20%;
+}
 .summary{
+
   width: 260px;
 }
 .summary li{
@@ -42,9 +46,15 @@ logo h1{
   background-image: url(../img/icon-storage.png);
 }
 .footer{
-  text-align: center;
+  text-align: right;
 }
 @media screen and (max-width: 600px) {
+  .summary-container{
+    margin-left: 8%;
+  }
+  .summary li{
+    padding-left: 55px;
+  }
   .homepage{
     min-height: 740px;
   }
