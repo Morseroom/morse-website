@@ -1,7 +1,7 @@
 body{
   color: black;
 }
-a{
+a, a:hover{
   color: #1069C9;
 }
 .homepage{
