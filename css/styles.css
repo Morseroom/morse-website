@@ -1,0 +1,9 @@
+body{
+  color: black;
+}
+logo .logo-container{
+  margin-top: 40px;
+}
+logo h1{
+  font-size: 300%;
+}
