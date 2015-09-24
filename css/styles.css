@@ -1,9 +1,57 @@
 body{
   color: black;
 }
+a{
+  color: #1069C9;
+}
+.homepage{
+  min-height: 640px;
+}
+.layout-fixed-center{
+  background: url('../img/bgdesktop.png') right 80px no-repeat;
+}
 logo .logo-container{
   margin-top: 40px;
 }
 logo h1{
   font-size: 300%;
+}
+.summary h5{
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.summary small{
+  color: #617381;
+}
+.summary{
+  width: 260px;
+}
+.summary li{
+  margin-top: 10px;
+  padding-left: 55px;
+  background: left no-repeat;
+}
+.summary .icon-secure{
+  background-image: url(../img/icon-secure.png);
+}
+.summary .icon-timely{
+  background-image: url(../img/icon-timely.png);
+}
+.summary .icon-storage{
+  background-image: url(../img/icon-storage.png);
+}
+.footer{
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .homepage{
+    min-height: 740px;
+  }
+  .footer{
+    text-align: center;
+  }
+  .layout-fixed-center{
+    background: url('../img/bgdesktop.png') 50px 510px no-repeat;
+  }
 }

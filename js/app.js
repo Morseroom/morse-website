@@ -1,7 +1,7 @@
 var app = angular.module('morseroom', ['ui.router']);
 // routes
 app.config(function($stateProvider, $urlRouterProvider){
-  $urlRouterProvider.otherwise("/");
+  $urlRouterProvider.otherwise('/');
   $stateProvider
     .state('home', {
       url: '/',
